@@ -24,10 +24,10 @@ body {
 }
 
 #text{
-    font-size: 45px;
+    font-size: 30px;
 }
 #author{
-    font-size: 30px;
+    font-size: 25px;
     position: relative;
     top: 20px;
 }
@@ -50,4 +50,14 @@ i:hover{
 
 .long-quote{
     font-size: 2rem;
+}
+
+@media screen and (max-width: 1000px){
+    .container{
+        margin: auto 10px;
+
+    }
+    #text{
+        font-size: 1.2rem;
+    }
 }
