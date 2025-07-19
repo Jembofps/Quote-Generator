@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +15,7 @@ body {
     justify-content: center;
     text-align: center;
     align-items: center;
-    font-family: Bitcount Grid Single;
+    font-family: Intel One Mono;
     display: flex;
 
 .container{
@@ -23,9 +24,11 @@ body {
     background-color: rgba(43, 44, 44 , 0.35);
     border: 5px solid blanchedalmond ;
     border-radius: 20px;
+    box-shadow: 0.3rem;
 
 
 }
+
 
 #text{
     font-size: 30px;
@@ -50,13 +53,15 @@ i{
     font-size: 50px;
     cursor: pointer;
     transition: all 0.4s ease;
+
+
 }
 i:hover{
-    transform: scale(1.3);
+    transform: scale(1.2);
     color: lightcoral;
 }
 i:active{
-    transform: translate(0.3rem);
+    transform: translateY(0.1rem);
 }
 
 .long-quote{
